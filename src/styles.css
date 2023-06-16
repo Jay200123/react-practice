@@ -24,7 +24,7 @@ body{
 }
 
 .nav-logo{
-    max-width: 100px;
+    max-width: 120px;
 }
 
 .navbar h3{
@@ -41,6 +41,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 17px;
+    font-weight: bold;
     padding: 10px;
 }
 
