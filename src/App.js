@@ -8,6 +8,7 @@ import img1 from "./images/focus.jpg"
 import img2 from "./images/image2.jpg"
 import img3 from "./images/industry.jpg"
 import img4 from "./images/tech.jpg"
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       text="Automotive technology is continuously evolving, driven by advancements in areas such as electric vehicles, autonomous driving, connected cars, and alternative fuels."
       />
       </div>
+      <Footer/>
     </div>
   );
 }
