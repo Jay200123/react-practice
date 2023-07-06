@@ -9,7 +9,16 @@ function App() {
 
   const asedata = Data.map((data)=>{
 
-    return <Card header={data.header} text={data.text} images={data.images}/>
+    return <Card
+
+    key = {data.id}
+    {...data} //spreads the property of an object
+
+    //  header={data.header}
+    //  text={data.text}
+    //  images={data.images}
+
+     />
 
   })
 
@@ -23,6 +32,7 @@ function App() {
       <Footer/>
     </div>
   );
+  
 }
 
 export default App;
